@@ -30,6 +30,12 @@ const nextConfig = {
       }
     }
 
+    redirects.push({
+      source: `/aoda`,
+      destination: `/aoda.pdf`,
+      permanent: true,
+    });
+
     return redirects;
   },
 };

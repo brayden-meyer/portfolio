@@ -35,7 +35,7 @@ export default async function Home() {
       <div className="mx-auto max-w-7xl px-10 pb-20 relative">
         <div className="grid grid-cols-1 grid-flow-row-dense lg:grid-cols-6">
           {projects.map((project) => (
-            <Project project={project} />
+            <Project key={project._id} project={project} />
           ))}
         </div>
         <h2 className="absolute -top-12 left-9 text-7xl font-extrabold">

@@ -40,6 +40,12 @@ export default async function Home() {
           Projects.
         </h2>
       </div>
+
+      <footer className="pt-36 pb-20">
+        <div className="mx-auto flex justify-center font-mono text-2xl font-bold text-gray-200 dark:text-gray-700">
+          <a href="#">braydenmeyer.dev</a>
+        </div>
+      </footer>
     </div>
   );
 }

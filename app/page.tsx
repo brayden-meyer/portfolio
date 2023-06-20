@@ -1,8 +1,6 @@
 import { getProjects } from "@/sanity/queries";
 import Project from "./Project";
-import { SanityProject } from "@/types/SanityProject";
-
-const github = "https://www.github.com/brayden-meyer";
+import { github } from "./constants";
 
 export default async function Home() {
   const projects = await getProjects();
@@ -45,5 +43,3 @@ export default async function Home() {
     </div>
   );
 }
-
-export { github };

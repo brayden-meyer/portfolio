@@ -1,4 +1,4 @@
-import { github } from "./page";
+import { github } from "./constants";
 import { SanityProject } from "@/types/SanityProject";
 
 export default function Project({ project }: { project: SanityProject }) {

@@ -5,7 +5,7 @@ import { github } from "./constants";
 export default async function Home() {
   const projects = await getProjects();
 
-  const isWindows = false;
+  const isWindows = true;
 
   return (
     <div className="dark:text-white dark:bg-gray-900">

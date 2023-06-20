@@ -8,6 +8,7 @@ const repos = {
   lightweb: ["lw"],
   snake: ["python", "py"],
   spaceinvaders: ["si"],
+  portfolio: ["this"],
 };
 
 const nextConfig = {

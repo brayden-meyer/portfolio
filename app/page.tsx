@@ -42,7 +42,7 @@ export default async function Home() {
       </div>
 
       <footer className="pt-36 pb-20">
-        <div className="mx-auto flex justify-center font-mono text-2xl font-bold text-gray-200 dark:text-gray-700">
+        <div className="mx-auto flex justify-center font-serif text-2xl font-bold text-gray-200 dark:text-gray-700">
           <a href="#">braydenmeyer.dev</a>
         </div>
       </footer>

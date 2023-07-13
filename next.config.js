@@ -3,13 +3,14 @@
 const github = "https://www.github.com/brayden-meyer/";
 const repos = {
   molview: ["moleculeviewer", "mv"],
-  photos: ["localphoto", "localphotos", "lp"],
   tc: [],
   lightweb: ["lw"],
   snake: ["python", "py"],
   spaceinvaders: ["si"],
   portfolio: ["this"],
 };
+
+// photos: ["localphoto", "localphotos", "lp"],
 
 const nextConfig = {
   async redirects() {
@@ -34,6 +35,12 @@ const nextConfig = {
     redirects.push({
       source: `/aoda`,
       destination: `/aoda.pdf`,
+      permanent: true,
+    });
+
+    redirects.push({
+      source: `/localphoto`,
+      destination: `https://github.com/localphoto`,
       permanent: true,
     });
 
